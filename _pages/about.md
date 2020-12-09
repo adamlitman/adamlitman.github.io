@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/ocean.jpg"
+  image: "/images/ocean2.jpg"
 ---
 
 Test - placeholder
