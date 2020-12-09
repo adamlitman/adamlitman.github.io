@@ -4,7 +4,7 @@ permalink: /projects/
 title: "Projects"
 author_profile: true
 header:
-  image: "/images/clouds.jpg"
+  image: "/images/clouds2.jpg"
 ---
 
 
