@@ -68,11 +68,3 @@ I tested 4 different categorical models and used a scaler to improve the 2 most 
 
 The Logistic Regression and Decision Tree models clearly performed best, with Logistic Regression getting the slight edge. 
 
-# IMAGE TEST
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
