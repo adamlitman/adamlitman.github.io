@@ -8,8 +8,8 @@ excerpt: "Web Scraper, Data Cleaning, Data Visualization, Model Building"
 mathjax: "true"
 ---
 
-# NBA Draft Pick Classification (python): Project Overview
-Link to full code: [Github Notebooks](https://github.com/adamlitman/nbadraft_project)
+## Project Overview
+Link to full python code: [Github Repository](https://github.com/adamlitman/nbadraft_project)
 
 - Created a classifier for determining whether an NBA player was drafted too high, too low, or accurately
 - Scraped data for over 2900 draft picks from basketballreference.com from 1981 through 2010
@@ -46,7 +46,13 @@ Modified the scraper in the article above to pull 30 years of NBA Draft data. Fo
 ## Exploratory Data Analysis
 Highlights from EDA
 
+![scatter]({{ site.url }}{{ site.baseurl }}/images/scatterplot.png)
 
+![box]({{ site.url }}{{ site.baseurl }}/images/boxplot.png)
+
+![bar1]({{ site.url }}{{ site.baseurl }}/images/bar_teams.png)
+
+![bar2]({{ site.url }}{{ site.baseurl }}/images/bar_college.png)
 
 ## Model Building and Scoring
 The goal of model building was to design a classifier that designates players as 'overdrafted', 'underdrafted', or 'even' based on their draft position and subsequent success in the NBA.
@@ -61,11 +67,6 @@ I tested 4 different categorical models and used a scaler to improve the 2 most 
 - Decision Tree: accuracy = 0.85
 
 The Logistic Regression and Decision Tree models clearly performed best, with Logistic Regression getting the slight edge. 
-
-
-# LINK TEST
-
-What about a [link](https://github.com/dataoptimal)?
 
 # IMAGE TEST
 
