@@ -41,7 +41,7 @@ Modified the scraper in the article above to pull 30 years of NBA Draft data. Fo
 - Standardized the data by including only top 60 picks for each draft year
 - Added columns to rank players in each draft by WinShares, VORP, and BPM
 - Added columns to identify lottery picks and superstar players
-- Added columns to identify if players were picked too high or low based on ranking features
+- Added columns to identify if players were picked too high or too low based on ranking features
 
 ## Exploratory Data Analysis
 Highlights from EDA
@@ -59,12 +59,12 @@ The goal of model building was to design a classifier that designates players as
 
 Started by creating dummy variables and splitting the data into training and test sets with a test size of 20%.
 
-I tested 4 different categorical models and used a scaler to improve the 2 most accurate ones. I used a simple accuracy score to determine the success of a model. 
+Tested 4 different categorical models and used a scaler to improve the 2 most accurate ones. Used a simple accuracy score to determine the success of a model. 
 
 - K-nearest neighbors: accuracy = 0.67
 - Naive Bayes: accuracy = 0.55
 - Logistic Regression: accuracy = 0.86
 - Decision Tree: accuracy = 0.85
 
-The Logistic Regression and Decision Tree models clearly performed best, with Logistic Regression getting the slight edge. 
+The Logistic Regression and Decision Tree models clearly performed best, with Logistic Regression achieving the slight edge. 
 
