@@ -1,9 +1,9 @@
 ---
 title: "NBA Draft Classification Project"
-date: December 2020
+date: December 15, 2020
 #tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/basketball.jpg"
 excerpt: "Web Scraper, Data Cleaning, Data Visualization, Model Building"
 mathjax: "true"
 ---
