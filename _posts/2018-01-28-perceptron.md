@@ -46,7 +46,7 @@ Modified the scraper in the article above to pull 30 years of NBA Draft data. Fo
 ## Exploratory Data Analysis
 Highlights from EDA
 
-![scatter]({{ site.url }}{{ site.baseurl }}/images/scatterplot.png)
+![scatter]({{ site.url }}{{ site.baseurl }}/images/scatterplot_nba.png)
 
 ![box]({{ site.url }}{{ site.baseurl }}/images/boxplot.png)
 
